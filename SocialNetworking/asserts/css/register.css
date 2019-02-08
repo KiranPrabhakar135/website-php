@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Bellota-LightItalic';
+    src: url("../fonts/Bellota-LightItalic.otf");
+}
+@font-face {
+    font-family: 'Bellota-BoldItalic';
+    src: url("../fonts/Bellota-BoldItalic.otf");
+}
+
+#Registration, #Login{
+    text-align: center;
+
+}
+body{
+    margin: 0;
+}
+#Registration div, #Login div{
+    width: 100%;
+    min-height: 35px;
+    margin-bottom: 10px;
+}
+.wrapper{
+    height: 100%;
+    background-image: url('../images/background/Desktop.jpg');
+    background-size: 100%;
+}
+.login_box{
+    font-family: 'Bellota-LightItalic', sans-serif;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 7%;
+    width: 35%;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 3%;
+    opacity: 0.98;
+}
+
+.login_header{
+    font-family: 'Bellota-LightItalic', sans-serif;
+    width: auto;
+    text-align: center;
+    background-color: #3498db;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: #000 2.5px 2.5px 6.5px;
+    /*border-top-left-radius: 3%;*/
+    /*border-top-right-radius: 3%;*/
+    /*border-radius: 50%;*/
+}
+.login_header div{
+    color: #ffffff;
+    margin: 5px;
+}
+.login_header h1{
+    color: #0f2cb9;
+    margin: 0;
+}
+.padding_10px{
+    padding: 10px;
+}
+
+input[type = "submit"]{
+    font-family: 'Bellota-LightItalic', sans-serif;
+    background-color: #3498db;
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #3498db;
+    margin: 5px 0px 10px 0px;
+    text-shadow: #000 2.5px 2.5px 6.5px;
+    cursor: pointer;
+}
+
+input[type = 'text'], input[type='password'], input[type='email'], input[type='date']{
+    font-family: 'Bellota-LightItalic', sans-serif;
+    color: #000000;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+}
+form{
+    margin: 10px;
+}
+
+form span, form input[type="text"], form input[type="email"],
+form input[type="password"], form input[type="date"]{
+    width:50%;
+    float: left;
+    height: 35px;
+}
+form input[type="text"]:hover, form input[type="email"]:hover,
+form input[type="password"]:hover, form input[type="date"]:hover{
+    border-color: #3498db;
+    box-shadow: 5px 5px #e5e5e5;
+}
+
+#signin, #signup{
+    color: #3498db;
+    font-family: 'Bellota-LightItalic', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
